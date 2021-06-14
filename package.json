@@ -1,0 +1,22 @@
+{
+	"name": "strapi-middleware-debug",
+	"version": "0.0.1",
+	"description": "Simple debugging middleware for Strapi and the Koa context",
+	"main": "./lib",
+	"keywords": [
+		"strapi",
+		"requests",
+		"debug",
+		"middleware"
+	],
+	"directories": {
+		"lib": "./lib"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/derrickmehaffy/strapi-middleware-debug.git"
+	},
+	"author": "Derrick Mehaffy <derrickmehaffy@gmail.com>",
+	"license": "MIT",
+	"private": false
+}
