@@ -1,6 +1,8 @@
 {
   "debug": {
     "enabled": true,
+    "adminRequests": false,
+    "userRequests": false,
     "logging": {
       "global": {
         "query": false,
