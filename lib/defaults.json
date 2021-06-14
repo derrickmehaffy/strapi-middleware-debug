@@ -1,0 +1,28 @@
+{
+	"debug": {
+		"enabled": true,
+		"logging": {
+			"global": {
+				"query": true,
+				"params": true,
+				"userState": true,
+				"app": false
+			},
+			"request": {
+				"route": true,
+				"body": true,
+				"headers": true,
+				"origin": true,
+				"host": true,
+				"ip": true,
+				"global": false
+			},
+			"response": {
+				"status": false,
+				"message": false,
+				"headers": false,
+				"global": false
+			}
+		}
+	}
+}
