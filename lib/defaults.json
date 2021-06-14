@@ -1,28 +1,30 @@
 {
-	"debug": {
-		"enabled": true,
-		"logging": {
-			"global": {
-				"query": true,
-				"params": true,
-				"userState": true,
-				"app": false
-			},
-			"request": {
-				"route": true,
-				"body": true,
-				"headers": true,
-				"origin": true,
-				"host": true,
-				"ip": true,
-				"global": false
-			},
-			"response": {
-				"status": false,
-				"message": false,
-				"headers": false,
-				"global": false
-			}
-		}
-	}
+  "debug": {
+    "enabled": true,
+    "logging": {
+      "global": {
+        "query": false,
+        "params": false,
+        "userState": false,
+        "app": false,
+        "fullState": false
+      },
+      "request": {
+        "route": false,
+        "body": false,
+        "headers": false,
+        "origin": false,
+        "host": false,
+        "ip": false,
+        "global": false
+      },
+      "response": {
+        "status": false,
+        "message": false,
+        "body": false,
+        "headers": false,
+        "global": false
+      }
+    }
+  }
 }
